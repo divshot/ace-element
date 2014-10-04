@@ -11,23 +11,7 @@ license that can be found in the LICENSE file.
 
 <polymer-element name="ace-element" attributes="theme mode value readonly wrap fontSize tabSize">
   <template>
-    <style type="text/css" media="screen">
-      :host {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      .ajaxorg-ace {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="ace-element.css">
     <div class="ajaxorg-ace" id="editor"></div>
   </template>
   <script>
