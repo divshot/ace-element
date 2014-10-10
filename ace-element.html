@@ -59,6 +59,7 @@ license that can be found in the LICENSE file.
         this.tabSizeChanged();
         this.editor.on("blur", this.editorBlurAction.bind(this));
         this.editor.on('change', this.editorChangeAction.bind(this));
+        this.editor.on('changeSession', this.editorChangeAction.bind(this));
         this.value = this.textContent;
       },
       fontSizeChanged: function() {
